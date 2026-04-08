@@ -1284,8 +1284,13 @@ ul {
 /* Media Queries */
 @media (max-width: 991px) {
     .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
         padding: 1rem 5%;
         background: var(--primary-blue);
+        z-index: 1000;
     }
     
     .menu-icon {
@@ -1325,7 +1330,7 @@ ul {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 15px;
+        padding: 100px 15px 15px;
         height: 60vh;
         width: 100%;
         display: flex;
@@ -1408,7 +1413,7 @@ ul {
     /* Admissions Page Mobile */
     .page-banner {
         height: 60vh;
-        padding: 15px;
+        padding: 100px 15px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
